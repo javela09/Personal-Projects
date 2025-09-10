@@ -1,0 +1,103 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    text-align: center;
+    align-items: center;
+
+    color: rgb(200, 200, 200);
+    font-family: "Tektur", sans-serif;
+}
+
+main {
+    height: 100%;
+}
+
+.contador {
+    width: 35vw;
+    min-width: fit-content;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    border: 2px, solid, rgb(200, 200, 200);
+    background-color: rgba(60, 60, 60, 50%);
+    box-shadow: 0px 0px 20px 10px rgba(200, 200, 200, 50%);
+
+    padding: 40px;
+}
+
+h2 {
+    font-size: 64px;
+    margin: 10px 10px;
+}
+
+div {
+    font-size: 32px;
+    margin: 0;
+    margin: 10px 10px
+}
+
+#timer {
+    font-size: 64px;
+}
+
+.trabajo {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/work.png);
+}
+
+.descanso {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/rest.png);
+}
+
+button {
+    width: 45%;
+    height: auto;
+    aspect-ratio: 4/1;
+
+    font-size: 24px;
+    color: rgb(200, 200, 200);
+    font-family: "Tektur", sans-serif;
+
+    border-radius: 15px;
+    border: 2px, solid, rgb(200, 200, 200);
+    background-color: rgba(240, 240, 240, 20%);
+
+    margin: 10px 10px;
+}
+
+button:hover {
+    color: rgba(20, 20, 20, 80%);
+    background-color: rgb(200, 200, 200);
+    box-shadow: 0px 0px 20px 10px rgba(200, 200, 200, 50%);
+}
+
+.control {
+    min-width: max-content;
+    min-height: max-content;
+}
+
+.creditosFooter {
+    font-size: 12px;
+    color: rgb(200, 200, 200);
+    width: 100%;
+
+    position: absolute;
+    bottom: 0px;
+
+    background: linear-gradient(90deg, rgba(200, 200, 200, 0) 0%, rgba(200, 200, 200, 0.2) 50%, rgba(200, 200, 200, 0) 100%);
+}
